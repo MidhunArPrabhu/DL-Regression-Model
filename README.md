@@ -40,9 +40,9 @@ Use the trained model to predict  for a new input value .
 
 ## PROGRAM
 
-### Name: Hanshika Varthini R
+### Name: MIDHUN AZHAHU RAJA P
 
-### Register Number: 212223240046
+### Register Number: 212222240066
 
 ```
 import torch as t
@@ -77,8 +77,8 @@ initial_bias = model.linear.bias.item()
 
 print(f"Initial Weight: {initial_weight:.2f}")
 print(f"Initial Bias: {initial_bias:.2f}")
-print("\nName: Hanshika Varthini R")
-print("Register No: 212223240046")
+print("\nName: MIDHUN AZHAHU RAJA P")
+print("Register No: 212222240066")
 print(f'Initial Weight: {initial_weight:.8f}, Initial Bias: {initial_bias:.8f}\n')
 
 loss_function = nn.MSELoss()
@@ -107,8 +107,8 @@ plt.show()
 
 final_weight = model.linear.weight.item()
 final_bias = model.linear.bias.item()
-print("\nName: Hanshika Varthini R")
-print("Register No: 212223240046")
+print("\nName: MIDHUN AZHAHU RAJA P")
+print("Register No: 212222240066")
 print(f'Final Weight: {final_weight:.8f}, Final Bias: {final_bias:.8f}\n')
 
 x1 = t.tensor([X.min().item(),X.max().item()])
@@ -128,20 +128,21 @@ print("\nName: MIDHUN AZHAHU RAJA P")
 print("Register No: 212222240066")
 print(f"\nPrediction for x = 120:  {y_new_pred:.8f}")
 
+
 ```
 
 ### Dataset Information
 
-![Screenshot 2025-04-17 081813](https://github.com/user-attachments/assets/6d24003b-67c0-4d21-a7b1-8f29d5ad61ce)
+![image](https://github.com/user-attachments/assets/69550d0d-13e7-4f6f-870b-51690d36c01b)
 
 ### OUTPUT
 ### Training Loss Vs Iteration Plot
-![Screenshot 2025-04-17 081754](https://github.com/user-attachments/assets/252d14ff-ec3a-4270-9ed5-41b2f4a6aa09)
+![image](https://github.com/user-attachments/assets/a5950829-bee4-457e-add0-b991d5959f3c)
 ### Best Fit line plot
-![Screenshot 2025-04-17 082130](https://github.com/user-attachments/assets/2f615acd-1227-4ec9-9c7b-2834ab44596c)
+![image](https://github.com/user-attachments/assets/7ab27b08-6f55-4b0e-b9e8-b37272e8878a)
 
 ### New Sample Data Prediction
-![Screenshot 2025-04-17 082121](https://github.com/user-attachments/assets/b5e70831-6be1-4398-9a9c-52695dd7c6c2)
+![image](https://github.com/user-attachments/assets/1344097a-f65e-4c3e-9352-41913d316c6b)
 
 ## RESULT
 Thus, a neural network regression model was successfully developed and trained using PyTorch.
